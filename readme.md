@@ -4,7 +4,7 @@ install [mpv](https://github.com/mpv-easy/mpv-winbuild/releases) by shell
 ## windows
 
 ```bash
-powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/mpv-winbuild/releases/latest/download/install.ps1 | iex"
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1 | iex"
 ```
 
 ## links

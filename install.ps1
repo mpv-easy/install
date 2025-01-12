@@ -8,8 +8,8 @@ $url = $matchingAsset.browser_download_url
 
 $DOWNLOAD_PATH = [System.IO.Path]::GetTempFileName()+(Get-Random)+".zip"
 
-if (Test-Path -Path $tempFile) {
-  Remove-Item -Path $tempFile -Force -Recurse
+if (Test-Path -Path $DOWNLOAD_PATH) {
+  Remove-Item -Path $DOWNLOAD_PATH -Force -Recurse
 }
 
 Write-Host "download $url..."
