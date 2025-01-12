@@ -12,6 +12,11 @@ install [mpv](https://github.com/mpv-easy/mpv-winbuild/releases) by shell
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1 | iex"
 ```
 
+
+<div style="display: flex;">
+  <img src="./assets/install.gif" alt="install"/>
+</div>
+
 ## links
 - https://mpv.io/installation/
 - https://sourceforge.net/projects/mpv-player-windows/files/
