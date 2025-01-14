@@ -15,7 +15,7 @@ powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/r
 ### mpv-easy
 
 ```bash
-powershell -ExecutionPolicy Bypass -c "Invoke-Command -ScriptBlock ([scriptblock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) -ArgumentList 'mpv-easy'"
+powershell -ExecutionPolicy Bypass -c "icm ([scriptblock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) -ArgumentList mpv-easy"
 ```
 
 

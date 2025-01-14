@@ -3,21 +3,19 @@ param (
 )
 
 $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-winbuild/releases/latest"
-$name_reg = "mpv-x86_64-v3*.zip"
+$nameReg = "mpv-x86_64-v3*.zip"
 $extractPath = "./mpv"
-
-echo $mpvType
 
 if ($mpvType -eq "mpv-easy") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
-    $name_reg = "mpy-easy-windows-full.zip"
+    $nameReg = "mpy-easy-windows-full.zip"
     $extractPath = "./mpv-easy"
 }
 
 
 $response = Invoke-WebRequest -Uri $apiUrl -Headers @{ 'User-Agent' = 'PowerShell' }
 $json = $response.Content | ConvertFrom-Json
-$matchingAsset = $json.assets | Where-Object { $_.name -like $name_reg }
+$matchingAsset = $json.assets | Where-Object { $_.name -like $nameReg }
 $url = $matchingAsset.browser_download_url
 
 $DOWNLOAD_PATH = [System.IO.Path]::GetTempFileName()+(Get-Random)+".zip"
