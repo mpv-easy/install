@@ -12,6 +12,12 @@ install [mpv](https://github.com/mpv-easy/mpv-winbuild/releases) by shell
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1 | iex"
 ```
 
+### mpv-easy
+
+```bash
+powershell -ExecutionPolicy Bypass -c "Invoke-Command -ScriptBlock ([scriptblock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) -ArgumentList 'mpv-easy'"
+```
+
 
 <div style="display: flex;">
   <img src="./assets/install.gif" alt="install"/>
