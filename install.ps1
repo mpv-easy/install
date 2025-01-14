@@ -11,6 +11,7 @@ echo $mpvType
 if ($mpvType -eq "mpv-easy") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
     $name_reg = "mpy-easy-windows-full.zip"
+    $extractPath = "./mpv-easy"
 }
 
 
