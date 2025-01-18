@@ -15,13 +15,13 @@ jobs:
       - name: test
         run: |
           powershell ./install.ps1
-          Get-ChildItem ./mpv
+          Get-ChildItem ./mpv -Depth 10
 
           powershell ./install.ps1 mpv-easy
-          Get-ChildItem ./mpv-easy
+          Get-ChildItem ./mpv-easy -Depth 10
 
           powershell ./install.ps1 mpv-uosc
-          Get-ChildItem ./mpv-uosc
+          Get-ChildItem ./mpv-uosc -Depth 10
 
           powershell ./install.ps1 mpv-modernx
-          Get-ChildItem ./mpv-modernx
+          Get-ChildItem ./mpv-modernx -Depth 10
