@@ -14,6 +14,9 @@ powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/r
 
 ### mpv-uosc
 
+https://github.com/tomasklaen/uosc
+
+
 ```bash
 powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-uosc"
 ```
@@ -21,12 +24,18 @@ powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://git
 
 ### mpv-easy
 
+https://github.com/mpv-easy/mpv-easy
+
+
 ```bash
 powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-easy"
 ```
 
 
 ### mpv-modernx
+
+https://github.com/cyl0/ModernX
+
 
 ```bash
 powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-modernx"
