@@ -12,6 +12,11 @@ if ($mpvType -eq "mpv-easy") {
     $extractPath = "./mpv-easy"
 }
 
+if ($mpvType -eq "mpv-uosc") {
+    $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
+    $nameReg = "mpy-uosc-windows-full.zip"
+    $extractPath = "./mpv-uosc"
+}
 
 $response = Invoke-WebRequest -Uri $apiUrl -Headers @{ 'User-Agent' = 'PowerShell' }
 $json = $response.Content | ConvertFrom-Json

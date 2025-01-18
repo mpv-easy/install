@@ -12,10 +12,17 @@ install [mpv](https://github.com/mpv-easy/mpv-winbuild/releases) by shell
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1 | iex"
 ```
 
+### mpv-uosc
+
+```bash
+powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-uosc"
+```
+
+
 ### mpv-easy
 
 ```bash
-powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) 'mpv-easy'"
+powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-easy"
 ```
 
 
