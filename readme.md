@@ -26,6 +26,12 @@ powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://git
 ```
 
 
+### mpv-modernx
+
+```bash
+powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-modernx"
+```
+
 <div style="display: flex;">
   <img src="./assets/install.gif" alt="install"/>
 </div>
