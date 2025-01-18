@@ -16,3 +16,12 @@ jobs:
         run: |
           powershell ./install.ps1
           Get-ChildItem ./mpv
+
+          powershell ./install.ps1 mpv-easy
+          Get-ChildItem ./mpv-easy
+
+          powershell ./install.ps1 mpv-uosc
+          Get-ChildItem ./mpv-uosc
+
+          powershell ./install.ps1 mpv-modernx
+          Get-ChildItem ./mpv-modernx
