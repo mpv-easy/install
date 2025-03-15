@@ -2,7 +2,7 @@ param (
     [string]$mpvType
 )
 
-$apiUrl = "https://api.github.com/repos/mpv-easy/mpv-winbuild/releases/latest"
+$apiUrl = "https://api.github.com/repos/mpv-easy/mpv-winbuild-cmake-zip/releases/latest"
 $nameReg = "mpv-x86_64-v3*.zip"
 $extractPath = "./mpv"
 

@@ -1,5 +1,5 @@
 
-install [mpv](https://github.com/mpv-easy/mpv-winbuild/releases) by shell
+install [mpv](https://github.com/mpv-easy/mpv-winbuild-cmake-zip/releases) by shell
 
 ## windows
 
@@ -50,4 +50,4 @@ powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://git
 - https://sourceforge.net/projects/mpv-player-windows/files/
 - https://github.com/shinchiro/mpv-winbuild-cmake/releases
 - https://github.com/zhongfly/mpv-winbuild/releases
-- https://github.com/mpv-easy/mpv-winbuild/releases
+- https://github.com/mpv-easy/mpv-winbuild-cmake-zip/releases
