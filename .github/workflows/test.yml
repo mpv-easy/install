@@ -25,3 +25,6 @@ jobs:
 
           powershell ./install.ps1 mpv-modernx
           Get-ChildItem ./mpv-modernx -Depth 10
+
+          powershell ./install.ps1 mpv-modernz
+          Get-ChildItem ./mpv-modernz -Depth 10

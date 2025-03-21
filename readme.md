@@ -41,6 +41,15 @@ https://github.com/cyl0/ModernX
 powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-modernx"
 ```
 
+### mpv-modernz
+
+https://github.com/Samillion/ModernZ
+
+
+```bash
+powershell -ExecutionPolicy Bypass -c "& ([ScriptBlock]::Create((irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1))) mpv-modernz"
+```
+
 <div style="display: flex;">
   <img src="./assets/install.gif" alt="install"/>
 </div>
