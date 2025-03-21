@@ -8,6 +8,8 @@ install [mpv](https://github.com/mpv-easy/mpv-winbuild-cmake-zip/releases) by sh
 - From the context menu, click **"Open PowerShell window here"**.
 - In the PowerShell window, input the following command and run:
 
+### mpv
+
 ```bash
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/mpv-easy/install/releases/latest/download/install.ps1 | iex"
 ```
