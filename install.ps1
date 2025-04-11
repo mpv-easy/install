@@ -8,25 +8,25 @@ $extractPath = "./mpv"
 
 if ($mpvType -eq "mpv-easy") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
-    $nameReg = "mpy-easy-windows-full.zip"
+    $nameReg = "mpv-easy-windows-full.zip"
     $extractPath = "./mpv-easy"
 }
 
 if ($mpvType -eq "mpv-uosc") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
-    $nameReg = "mpy-uosc-windows-full.zip"
+    $nameReg = "mpv-uosc-windows-full.zip"
     $extractPath = "./mpv-uosc"
 }
 
 if ($mpvType -eq "mpv-modernx") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
-    $nameReg = "mpy-modernx-windows-full.zip"
+    $nameReg = "mpv-modernx-windows-full.zip"
     $extractPath = "./mpv-modernx"
 }
 
 if ($mpvType -eq "mpv-modernz") {
     $apiUrl = "https://api.github.com/repos/mpv-easy/mpv-easy/releases/latest"
-    $nameReg = "mpy-modernz-windows-full.zip"
+    $nameReg = "mpv-modernz-windows-full.zip"
     $extractPath = "./mpv-modernz"
 }
 
